@@ -87,6 +87,10 @@ function App() {
                 <div className="todo-container">
                     <div className={"header"}>
                         <div className="todo-list">
+                            <div className={"todo-container"}>
+
+                            </div>
+                            <button onClick={toggleTheme}>⭐</button>
                             {todos.map((todo, index) => (
                                 <Todo
                                     key={index}
@@ -100,8 +104,8 @@ function App() {
                         </div>
                     </div>
 
-                    <div className={"bottom"}>
-                        <button onClick={toggleTheme}>Toggle theme</button>
+                    <div className={"footer"}>
+
                     </div>
                 </div>
             </>
