@@ -1,0 +1,71 @@
+$fullWidthContainer: 100%;
+$fullHeightContainer: 100%;
+$darkModeStarWidth: 30px;
+$darkModeStarHeight: 30px;
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+.app {
+  background: #209cee;
+  height: 100vh;
+  padding: 30px;
+}
+
+.todo-container {
+  width: $fullWidthContainer;
+  height: $fullHeightContainer;
+
+  position: absolute;
+}
+
+.header {
+  width: $fullWidthContainer;
+  height: 30%;
+
+  background-image: url("./../img/bg-desktop-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom {
+  width: $fullWidthContainer;
+  height: 70%;
+
+  z-index: 1;
+
+  .DarkModeStar {
+    min-width: $darkModeStarWidth;
+    max-height: $darkModeStarHeight;
+  }
+}
+
+
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}

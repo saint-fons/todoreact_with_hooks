@@ -1,9 +1,10 @@
 import React from "react";
-import "./styles.css";
+import "./styles/styles.scss";
 import {ThemeProvider} from 'styled-components';
 import {lightTheme, darkTheme} from './theme';
 import {GlobalStyles} from './global';
 import { useState } from 'react';
+import star from "./img/star-solid.svg"
 
 
 function Todo({todo, index, completeTodo, removeTodo}) {
@@ -101,7 +102,10 @@ function App() {
                     </div>
 
                     <div className={"bottom"}>
-                        <button onClick={toggleTheme}>Toggle theme</button>
+                        <button onClick={toggleTheme}><img
+                            src={star}
+                            alt={"star"}
+                            className={"DarkModeStar"} /></button>
                     </div>
                 </div>
             </>
