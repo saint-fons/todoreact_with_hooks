@@ -1,8 +1,8 @@
-$fullWidthContainer: 100%;
-$fullHeightContainer: 100%;
+$fullSize: 100%;
 $darkModeStarWidth: 30px;
 $darkModeStarHeight: 30px;
-
+$darkModeTest: 300px;
+$imgItem: 25px;
 
 
 * {
@@ -10,61 +10,209 @@ $darkModeStarHeight: 30px;
   margin: 0;
   padding: 0;
   font-family: 'Rubik', sans-serif;
+
+  font-size: 25px;
 }
 
+@media (min-width: 550px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 25px;
+  }
+
+  .app {
+    background: #209cee;
+    height: 100vh;
+    padding: 30px;
+  }
+
+  .todo-container {
+    width: $fullSize;
+    height: $fullSize;
+
+    position: absolute;
+  }
+
+  .header {
+    width: $fullSize;
+    height: 30%;
+
+    .desktopBgSwitcher {
+      width: $fullSize;
+      height: $fullSize;
+    }
+  }
+
+  .bottom {
+    width: $fullSize;
+    height: 70%;
+    z-index: 1;
+
+    .DarkModeStar {
+      min-width: $darkModeStarWidth;
+      max-height: $darkModeStarHeight;
+    }
+
+    .DarkModeTest {
+      width: $darkModeTest;
+      height: $darkModeTest;
+
+    }
+  }
 
 
-.app {
-  background: #209cee;
-  height: 100vh;
-  padding: 30px;
+  .todo-list {
+    background: #e8e8e8;
+    border-radius: 4px;
+    max-width: 600px;
+    padding: 5px;
+
+    margin: auto;
+  }
+
+  .todo {
+    align-items: center;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 3px 10px;
+  }
+
+  .checkerCircle {
+    width: $imgItem;
+    height: $imgItem;
+  }
+
+  .Input-Form-Item {
+    width: $fullSize;
+
+    margin-bottom: $imgItem;
+    margin-top: $imgItem;
+
+  }
+
+  .Item-Delete-TrashIMG {
+    width: $imgItem;
+    height: $imgItem;
+  }
+
+
+  .Dark-Mode-Switcher {
+    padding: 10px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
+////////////////////////////////////////////////////////////////
 
-.todo-container {
-  width: $fullWidthContainer;
-  height: $fullHeightContainer;
+@media (max-width: 550px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
 
-  position: absolute;
-}
+    font-size: 15px;
+  }
 
-.header {
-  width: $fullWidthContainer;
-  height: 30%;
+  .app {
+    background: #209cee;
+    height: 100vh;
+    padding: 30px;
+  }
 
-  background-image: url("./../img/bg-desktop-dark.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .todo-container {
+    width: $fullSize;
+    height: $fullSize;
 
-.bottom {
-  width: $fullWidthContainer;
-  height: 70%;
-  z-index: 1;
+    position: absolute;
+  }
 
-  .DarkModeStar {
-    min-width: $darkModeStarWidth;
-    max-height: $darkModeStarHeight;
+  .header {
+    width: $fullSize;
+    height: 30%;
+
+    .desktopBgSwitcher {
+      width: $fullSize;
+      height: $fullSize;
+    }
+  }
+
+  .bottom {
+    width: $fullSize;
+    height: 70%;
+    z-index: 1;
+
+    .DarkModeStar {
+      min-width: $darkModeStarWidth;
+      max-height: $darkModeStarHeight;
+    }
+
+    .DarkModeTest {
+      width: $darkModeTest;
+      height: $darkModeTest;
+
+    }
+  }
+
+
+  .todo-list {
+    background: #e8e8e8;
+    border-radius: 4px;
+    max-width: 600px;
+    padding: 5px;
+
+    margin: auto;
+  }
+
+  .todo {
+    align-items: center;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 3px 10px;
+  }
+
+  .checkerCircle {
+    width: $imgItem;
+    height: $imgItem;
+  }
+
+  .Input-Form-Item {
+    width: $fullSize;
+
+    margin-bottom: $imgItem;
+    margin-top: $imgItem;
+
+  }
+
+  .Item-Delete-TrashIMG {
+    width: $imgItem;
+    height: $imgItem;
+  }
+
+
+  .Dark-Mode-Switcher {
+    padding: 10px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 
 
-.todo-list {
-  background: #e8e8e8;
-  border-radius: 4px;
-  max-width: 400px;
-  padding: 5px;
-}
 
-.todo {
-  align-items: center;
-  background: #fff;
-  border-radius: 3px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  display: flex;
-  font-size: 12px;
-  justify-content: space-between;
-  margin-bottom: 6px;
-  padding: 3px 10px;
-}
+
+

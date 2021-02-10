@@ -3,8 +3,14 @@ import "./styles/styles.scss";
 import {ThemeProvider} from 'styled-components';
 import {lightTheme, darkTheme} from './theme';
 import {GlobalStyles} from './global';
-import { useState } from 'react';
+import {useState} from 'react';
 import star from "./img/star-solid.svg"
+import starLight from "./img/star-light.svg"
+import desktopBgLight from "./img/bg-desktop-light.jpg"
+import desktopBgDark from "./img/bg-desktop-dark.jpg"
+import checkCircleDark from "./img/check-circle-dark.svg"
+import checkCircleLight from "./img/check-circle-light.svg"
+import DarkTrashItem from "./img/trash-alt-dark.svg"
 
 
 function Todo({todo, index, completeTodo, removeTodo}) {
@@ -13,19 +19,34 @@ function Todo({todo, index, completeTodo, removeTodo}) {
             className="todo"
             style={{textDecoration: todo.isCompleted ? "line-through" : ""}}
         >
+            {todo.isCompleted ?
+                <button onClick={() => completeTodo(index)}>
+                    <img src={checkCircleDark}
+                         alt={"Circle"}
+                         className={"checkerCircle"}/>
+                </button> :
+                <button onClick={() => completeTodo(index)}>
+                    <img src={checkCircleLight}
+                         alt={"Circle"}
+                         className={"checkerCircle"}/>
+                </button>
+            }
+
             {todo.text}
             <div>
-                <button onClick={() => completeTodo(index)}>Complete</button>
-                <button onClick={() => removeTodo(index)}>x</button>
+                <button className={"Trash-Button-Item"} onClick={() => removeTodo(index)}>
+                    <img src={DarkTrashItem}
+                         alt={"trash"}
+                         className={"Item-Delete-TrashIMG"}
+                />
+                </button>
             </div>
-            ;
         </div>
     );
 }
 
 function TodoForm({addTodo}) {
     const [value, setValue] = React.useState("");
-
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!value) return;
@@ -36,7 +57,7 @@ function TodoForm({addTodo}) {
         <form onSubmit={handleSubmit}>
             <input
                 type="text"
-                className="input"
+                className="Input-Form-Item"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
             />
@@ -50,8 +71,14 @@ function App() {
             text: "Learn about React",
             isCompleted: false
         },
-        {text: "Meet friends for lunch", isCompleted: false},
-        {text: "Build really cool todo app", isCompleted: false}
+        {
+            text: "Meet friends for lunch",
+            isCompleted: false
+        },
+        {
+            text: "Build really cool todo app",
+            isCompleted: false
+        }
     ]);
 
     const addTodo = (text) => {
@@ -87,7 +114,34 @@ function App() {
                 <GlobalStyles/>
                 <div className="todo-container">
                     <div className={"header"}>
+                        {theme === 'light' ?
+                            <img src={desktopBgLight}
+                                 alt={"bg"}
+                                 className={"desktopBgSwitcher"}/> :
+                            <img src={desktopBgDark}
+                                 alt={"bg"}
+                                 className={"desktopBgSwitcher"}/>}
+                    </div>
+                    <div className={"bottom"}>
                         <div className="todo-list">
+                            <div className={"Dark-Mode-Switcher"}>
+                                TO DO
+                                <button
+                                    onClick={toggleTheme}>
+                                    {theme === 'light' ?
+                                        <img
+                                        src={star}
+                                        alt={"star"}
+                                        className={"DarkModeStar"}/>
+                                    :
+                                        <img
+                                            src={starLight}
+                                            alt={"star"}
+                                            className={"DarkModeStar"}/>
+                                    }
+                                </button>
+                            </div>
+                            <TodoForm addTodo={addTodo}/>
                             {todos.map((todo, index) => (
                                 <Todo
                                     key={index}
@@ -97,15 +151,7 @@ function App() {
                                     removeTodo={removeTodo}
                                 />
                             ))}
-                            <TodoForm addTodo={addTodo}/>
                         </div>
-                    </div>
-
-                    <div className={"bottom"}>
-                        <button onClick={toggleTheme}><img
-                            src={star}
-                            alt={"star"}
-                            className={"DarkModeStar"} /></button>
                     </div>
                 </div>
             </>

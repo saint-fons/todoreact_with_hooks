@@ -25,6 +25,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.header .mobileBgDark {
+  width: 30%;
+  height: 30%;
+}
 
 .bottom {
   width: 100%;
@@ -34,6 +38,10 @@
 .bottom .DarkModeStar {
   min-width: 30px;
   max-height: 30px;
+}
+.bottom .DarkModeTest {
+  width: 300px;
+  height: 300px;
 }
 
 .todo-list {
