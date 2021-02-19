@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec14532b-70a1-4719-adcd-97ca79b6318e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1o1m1AXuBSrTGe5Y5DXQIvP5Ydw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ip_address_tracker/ip_address_tracker(ver2)/ip_tracker_ver2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git\todoreact_with_hooks\src\styles" />
+      <recent name="F:\git\todoreact_with_hooks\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec14532b-70a1-4719-adcd-97ca79b6318e" name="Default Changelist" comment="" />
+      <created>1612462252393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612462252393</updated>
+      <workItem from="1612462255429" duration="2021000" />
+      <workItem from="1612593050581" duration="13266000" />
+      <workItem from="1612616006083" duration="2849000" />
+      <workItem from="1612680954641" duration="2165000" />
+      <workItem from="1612699310191" duration="3385000" />
+      <workItem from="1612716028903" duration="2054000" />
+      <workItem from="1612799103967" duration="7839000" />
+      <workItem from="1612816195643" duration="6760000" />
+      <workItem from="1612940047566" duration="7273000" />
+      <workItem from="1613154541476" duration="51000" />
+      <workItem from="1613159344363" duration="1010000" />
+      <workItem from="1613289146938" duration="3916000" />
+      <workItem from="1613368930637" duration="5272000" />
+      <workItem from="1613732317123" duration="1272000" />
+    </task>
+    <task id="LOCAL-00001" summary="dark mode added">
+      <created>1612612402838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612612402838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="simple layout">
+      <created>1612616982505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612616982505</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dark mode. SASS">
+      <created>1612703118662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612703118662</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dark mode. SASS">
+      <created>1612703153685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612703153685</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dark mode. SASS">
+      <created>1612703351572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612703351572</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init">
+      <created>1612716346963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612716346963</updated>
+    </task>
+    <task id="LOCAL-00007" summary="styles, dark mode, imgs">
+      <created>1612945690481</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612945690481</updated>
+    </task>
+    <task id="LOCAL-00008" summary="styles, dark mode, imgs">
+      <created>1612946161901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612946161901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dark mode added" />
+    <MESSAGE value="simple layout" />
+    <MESSAGE value="dark mode. SASS" />
+    <MESSAGE value="init" />
+    <MESSAGE value="styles, dark mode, imgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles, dark mode, imgs" />
+  </component>
+</project>

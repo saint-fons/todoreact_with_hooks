@@ -1,0 +1,14 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Todo_App_with_React_Hooks\r\nCreated with CodeSandbox\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 686328f127007227c3b0f2d892ddabee455014b1)
++++ b/README.md	(date 1612699345670)
+@@ -1,2 +1,1 @@
+-# Todo_App_with_React_Hooks
+-Created with CodeSandbox
++https://www.digitalocean.com/community/tutorials/how-to-build-a-react-to-do-app-with-react-hooks
