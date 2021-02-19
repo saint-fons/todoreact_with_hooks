@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec14532b-70a1-4719-adcd-97ca79b6318e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <workItem from="1613159344363" duration="1010000" />
       <workItem from="1613289146938" duration="3916000" />
       <workItem from="1613368930637" duration="5272000" />
-      <workItem from="1613732317123" duration="1272000" />
+      <workItem from="1613732317123" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="dark mode added">
       <created>1612612402838</created>
@@ -123,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612946161901</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="readme fixed">
+      <created>1613735552275</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613735552275</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +153,7 @@
     <MESSAGE value="dark mode. SASS" />
     <MESSAGE value="init" />
     <MESSAGE value="styles, dark mode, imgs" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles, dark mode, imgs" />
+    <MESSAGE value="readme fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme fixed" />
   </component>
 </project>
