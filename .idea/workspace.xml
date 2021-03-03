@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec14532b-70a1-4719-adcd-97ca79b6318e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +73,7 @@
       <workItem from="1613735691279" duration="1910000" />
       <workItem from="1613838301797" duration="35000" />
       <workItem from="1614773894623" duration="3236000" />
+      <workItem from="1614778955427" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="dark mode added">
       <created>1612612402838</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614778698791</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="readme">
+      <created>1614778972695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614778972695</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,9 +198,9 @@
     <MESSAGE value="init" />
     <MESSAGE value="styles, dark mode, imgs" />
     <MESSAGE value="readme fixed" />
-    <MESSAGE value="readme" />
     <MESSAGE value="info" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
