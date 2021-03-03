@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec14532b-70a1-4719-adcd-97ca79b6318e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ip_address_tracker/ip_address_tracker(ver2)/ip_tracker_ver2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nevatrip" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -65,6 +66,9 @@
       <workItem from="1613289146938" duration="3916000" />
       <workItem from="1613368930637" duration="5272000" />
       <workItem from="1613732317123" duration="1431000" />
+      <workItem from="1613735691279" duration="1910000" />
+      <workItem from="1613838301797" duration="35000" />
+      <workItem from="1614773894623" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="dark mode added">
       <created>1612612402838</created>
@@ -129,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613735552275</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="readme">
+      <created>1613735710867</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613735710867</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +165,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="styles, dark mode, imgs" />
     <MESSAGE value="readme fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme fixed" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
