@@ -1,0 +1,51 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Todo_App_with_React_Hooks\r\nCreated with CodeSandbox\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 72e4154f4c979633b1aedbc61816eb6c091f95ae)
++++ b/README.md	(date 1614778431127)
+@@ -1,2 +1,38 @@
+-# Todo_App_with_React_Hooks
+-Created with CodeSandbox
++# ToDo APP React (Hooks)
++
++Продакшен версия: [Live version](https://todo-hooks-git-main.saint-fons.vercel.app/)
++
++
++## Технологии;
++### React + Hooks, SASS/SCSS, Styled Components
++
++##Функционал;
++* Добавление задач (enter)
++* Удаление задач
++* Статус "Завершено для задачи"
++* Переключение темы по иконке "Звезда" (ThemeProvider)
++
++## Структура приложения;
++
++
++
++### npm install / yarn install для установки node_modules
++### npm start / yarn start для запуска проекта
++### npm build / yarn build для продакшен версии
++
++## I. Главная страница проекта
++![img.png](src/styles/IMG/main_page.png)
++
++## II. Добавление новой задачи "new task"
++![img.png](src/styles/IMG/new_task.png)
++
++## III. Задачи удаляются при нажатии соответствующего значка. Пример для задачи "new task" после удаления
++![img.png](src/styles/IMG/delete.png)
++
++    
++## IV. При нажатии соответствующего значка, задача, считается выполненной.
++![img.png](src/styles/IMG/dark_theme.png)
++
++    
++##
++    
